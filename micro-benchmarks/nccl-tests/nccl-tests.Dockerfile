@@ -71,7 +71,7 @@ RUN git clone -b ${GDRCOPY_VERSION} https://github.com/NVIDIA/gdrcopy.git /tmp/g
 
 ENV LD_LIBRARY_PATH=/opt/gdrcopy/lib:$LD_LIBRARY_PATH
 ENV LIBRARY_PATH=/opt/gdrcopy/lib:$LIBRARY_PATH
-ENV CPATH=/opt/gdrcopy/include:$CPATH
+ENV CPATH=/opt/gdrcopy/include
 ENV PATH=/opt/gdrcopy/bin:$PATH
 
 #################################################
